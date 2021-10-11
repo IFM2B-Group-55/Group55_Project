@@ -1,0 +1,50 @@
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.exe.config
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.exe
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.pdb
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.xml
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbprojAssemblyReference.cache
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.frmDiseaseCombat.resources
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.Resources.resources
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbproj.GenerateResource.cache
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbproj.CoreCompileInputs.cache
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.exe
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.xml
+C:\Users\HOME\Desktop\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.pdb
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.exe.config
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.exe
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.pdb
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.xml
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbproj.AssemblyReference.cache
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.frmDiseaseCombat.resources
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.Resources.resources
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbproj.GenerateResource.cache
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbproj.CoreCompileInputs.cache
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.exe
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.xml
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.pdb
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.frmMalaria.resources
+C:\Users\tokel\Desktop\IFM\Sem 2\Practicals\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.frmHiv_and_Aids.resources
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbproj.AssemblyReference.cache
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.frmDiseaseCombat.resources
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.Resources.resources
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbproj.GenerateResource.cache
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbproj.CoreCompileInputs.cache
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.exe
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.xml
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.pdb
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.exe.config
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.exe
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.pdb
+C:\Users\lolo_\OneDrive\Desktop\Trail\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.xml
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbproj.AssemblyReference.cache
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.frmDiseaseCombat.resources
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.Resources.resources
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbproj.GenerateResource.cache
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.vbproj.CoreCompileInputs.cache
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.exe
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.xml
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\obj\Debug\Group55TeamProject.pdb
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.exe.config
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.exe
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.pdb
+C:\Users\tokel\Desktop\IFM\Sem 2\Practice\Group55TeamProject\Group55TeamProject\Group55TeamProject\Group55TeamProject\bin\Debug\Group55TeamProject.xml
