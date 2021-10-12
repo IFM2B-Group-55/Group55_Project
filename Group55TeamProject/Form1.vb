@@ -23,7 +23,30 @@ Public Class frmDiseaseCombat
     Private numUsers As Integer
     Private Users() As User
 
+    Private Sub btnProfile_Click(sender As Object, e As EventArgs) Handles btnProfile.Click
+        Dim name As String
+        Dim age As Integer
+        Dim id As Double
+        numUsers += 1
+        ReDim Preserve Users(numUsers)
+
+        name = InputBox("Enter Name")
+        age = CInt(InputBox("Enter Age"))
+        id = CDbl(InputBox("Enter Id"))
+
+        Users(numUsers) = New User(name, age, id, numUsers)
+        MsgBox("your user Number is " & CStr(numUsers))
+    End Sub
+
+    Private Sub btnDisplay_Click(sender As Object, e As EventArgs) Handles btnDisplay.Click
+        Dim nUser As Integer
+        nUser = CInt(InputBox("Enter User Number"))
+
+        txtDisplay.Text = Users(nUser).Display
+    End Sub
+
     Private Sub btnActivity_Click(sender As Object, e As EventArgs) Handles btnActivity.Click
+
         numDisease += 1
         ReDim Preserve ObjDisease(numDisease)
         Dim Disease_Type As Integer
@@ -37,25 +60,31 @@ Public Class frmDiseaseCombat
 
         Select Case Disease_Type
             Case 1 'Hiv/Aids
+                txtDisplay.Clear()
                 Dim objHiv_Aids As Hiv_and_Aids = New Hiv_and_Aids(Symptom, Cause, Risk, Species) ' intiate
 
                 objHiv_Aids.Hiv_Aids_Info()
-                txtDisplay.Clear()
+                txtRisk.Text = objHiv_Aids.CalcRisk()
+
 
                 'Upcasting
                 ObjDisease(numDisease) = objHiv_Aids
 
             Case 2 'Malaria
+
                 Dim objMalaria As Malaria = New Malaria(Symptom, Cause, Risk, Var, Stages) ' initiate
                 objMalaria.Malaria_Info()
-                txtDisplay.Clear()
+                txtRisk.Text = objMalaria.CalcRisk()
+
 
                 'upcasting
                 ObjDisease(numDisease) = objMalaria
             Case 3 'TB
-                Dim objTB As TB = New TB(Symptom, Cause,Risk, Stages) ' initiate
-                objTB.TB_Info()
                 txtDisplay.Clear()
+                Dim objTB As TB = New TB(Symptom, Cause, Risk, Stages) ' initiate
+                objTB.TB_Info()
+                txtRisk.Text = objTB.CalcRisk()
+
 
                 'upcasting
                 ObjDisease(numDisease) = objTB
@@ -88,32 +117,9 @@ Public Class frmDiseaseCombat
         BF = New BinaryFormatter() ' initiate
         While File.Position < File.Length
             Dim d As Disease
-            d = DirectCast(BF.Deserialize(File), Hiv_and_Aids)
+            d = DirectCast(BF.Deserialize(File), Disease)
             txtDisplay.Text &= d.MoreInfo() & Environment.NewLine
         End While
         File.Close()
     End Sub
-
-    Private Sub btnProfile_Click(sender As Object, e As EventArgs) Handles btnProfile.Click
-        Dim name As String
-        Dim age As Integer
-        Dim id As Double
-        numUsers += 1
-        ReDim Preserve Users(numUsers)
-
-        name = InputBox("Enter Name")
-        age = CInt(InputBox("Enter Age"))
-        id = CDbl(InputBox("Enter Id"))
-
-        Users(numUsers) = New User(name, age, id, numUsers)
-        MsgBox("your user Number is " & CStr(numUsers))
-    End Sub
-
-    Private Sub btnDisplay_Click(sender As Object, e As EventArgs) Handles btnDisplay.Click
-        Dim nUser As Integer
-        nUser = CInt(InputBox("Enter User Number"))
-
-        txtDisplay.Text = Users(nUser).Display
-    End Sub
-
 End Class

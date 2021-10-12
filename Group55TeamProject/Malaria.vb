@@ -43,20 +43,17 @@ Option Infer Off
     End Property
 
     'Methods
-
     Public Overrides Function MoreInfo() As String
         Dim Info As String
-        Info = "ABOUT MALARIA " & Environment.NewLine & "
-                A disease caused by a plasmodium parasite, transmitted by the bite of infected mosquitoes.
-                The severity of malaria varies based on the species of plasmodium.
-                Symptoms are chills, fever and sweating, usually occurring a few weeks after being bitten.
-                People travelling to areas where malaria is common typically take protective
-                drugs before, during and after their trip. Treatment includes antimalarial drugs."
+        Info = "ABOUT MALARIA " & Environment.NewLine & " A disease caused by a plasmodium parasite, transmitted by the bite of infected mosquitoes.
+The severity of malaria varies based on the species of plasmodium.
+Symptoms are chills, fever and sweating, usually occurring a few weeks after being bitten.
+People travelling to areas where malaria is common typically take protective
+drugs before, during and after their trip. Treatment includes antimalarial drugs."
         Return Info
     End Function
 
     Public Function Malaria_Info() As String
-
         Cause = CInt(InputBox("1-A single-celled parasite of the genus plasmodium" & Environment.NewLine &
                               "2.Mosquito bite" & Environment.NewLine &
                               "3.Blood transfusion" & Environment.NewLine &
@@ -64,7 +61,7 @@ Option Infer Off
                                "5.The shared use of needles or syringes contaminated with blood",
                                  "How many were you exposed to?"))
         If Cause = 0 Then
-            MsgBox("You are safe")
+            MsgBox("You may not have the disease cause you were not exposed to the causes, although it is wise to be aware of the causes")
         Else
             Symptom = CInt(InputBox("1-Fever
 2-Chills
@@ -77,9 +74,9 @@ Option Infer Off
 9-Fatigue
 10-Rapid breathing
 11-Rapid heart rate
-12-Cough", "How many symptomds have you experienced?"))
+12-Cough", "How many symptoms have you experienced?"))
 
-            MsgBox(CalcRisk())
+
         End If
         Return MoreInfo()
     End Function
@@ -98,8 +95,5 @@ Option Infer Off
             Case Else
                 Return "No Risk!"
         End Select
-
     End Function
-
-
 End Class

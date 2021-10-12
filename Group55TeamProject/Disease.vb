@@ -14,7 +14,7 @@ Option Infer Off
 <Serializable()> Public Class Disease
     Private _Symptom As Integer
     Private _Cause As Integer
-    Private _Risk As Double     'To be reviewed ... There might be no need for it
+    Private _Risk As Double
 
     'Constrructor
     Public Sub New(Symptom As Integer, Cause As Integer, Risk As Double)
@@ -61,11 +61,4 @@ Option Infer Off
     Public Overridable Function MoreInfo() As String
         Return "Nothing"
     End Function
-
-    'Public Overridable Function Display() As String
-    '    Dim Temp As String
-    '    Temp = "Why"
-    '    Return Temp
-    'End Function
-
 End Class

@@ -50,9 +50,9 @@ Patients with active symptoms will require a long course of treatment involving 
 3-sneezes 
 4-spits 
 5-laughs
-6-sings", "How many were you exposed to?"))
+6-sings", "Which one hae you expereinced?"))
         If Cause = 0 Then
-            MsgBox("You need to take more drugs")
+            MsgBox("You may not have the disease cause you were not exposed to the causes, although it is wise to be aware of the causes")
         Else
             Symptom = CInt(InputBox("1-Coughing up blood or mucus
 2-Chest pain, or pain with breathing or coughing
@@ -61,21 +61,30 @@ Patients with active symptoms will require a long course of treatment involving 
 5-Fever
 6-Night sweats
 7-Chills
-8-Loss of appetite", "How many symptomds havr you experienced?"))
-            If Symptom > 3 Then
+8-Loss of appetite", "How many symptoms have you experienced?"))
+            If Symptom > 3 And Symptom < 8 Then
                 MsgBox("Get tested")
             Else
                 MoreInfo()
-
             End If
-
         End If
         Return MoreInfo()
     End Function
 
-    'Public Overrides Function Display() As String
+    Public Overrides Function CalcRisk() As String
+        Risk = (Symptom / 8) * 100
 
-    'End Function
+        Select Case Risk
+            Case < 50
+                Return "Low Risk"
+            Case 50 To 75
+                Return "High Risk"
+            Case > 75
+                Return "Extreanly High Risk"
+            Case Else
+                Return "No Risk!"
+        End Select
+    End Function
 
 
 End Class

@@ -29,6 +29,8 @@ Partial Class frmDiseaseCombat
         Me.btnActivity = New System.Windows.Forms.Button()
         Me.btnWrite = New System.Windows.Forms.Button()
         Me.btnRead = New System.Windows.Forms.Button()
+        Me.txtRisk = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnProfile
@@ -47,6 +49,7 @@ Partial Class frmDiseaseCombat
         Me.txtDisplay.Margin = New System.Windows.Forms.Padding(2)
         Me.txtDisplay.Multiline = True
         Me.txtDisplay.Name = "txtDisplay"
+        Me.txtDisplay.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
         Me.txtDisplay.Size = New System.Drawing.Size(447, 255)
         Me.txtDisplay.TabIndex = 4
         '
@@ -62,7 +65,7 @@ Partial Class frmDiseaseCombat
         '
         'btnActivity
         '
-        Me.btnActivity.Location = New System.Drawing.Point(12, 201)
+        Me.btnActivity.Location = New System.Drawing.Point(12, 146)
         Me.btnActivity.Name = "btnActivity"
         Me.btnActivity.Size = New System.Drawing.Size(100, 39)
         Me.btnActivity.TabIndex = 7
@@ -71,7 +74,7 @@ Partial Class frmDiseaseCombat
         '
         'btnWrite
         '
-        Me.btnWrite.Location = New System.Drawing.Point(12, 146)
+        Me.btnWrite.Location = New System.Drawing.Point(12, 201)
         Me.btnWrite.Name = "btnWrite"
         Me.btnWrite.Size = New System.Drawing.Size(100, 39)
         Me.btnWrite.TabIndex = 8
@@ -87,13 +90,32 @@ Partial Class frmDiseaseCombat
         Me.btnRead.Text = "Read File"
         Me.btnRead.UseVisualStyleBackColor = True
         '
+        'txtRisk
+        '
+        Me.txtRisk.Location = New System.Drawing.Point(598, 76)
+        Me.txtRisk.Name = "txtRisk"
+        Me.txtRisk.Size = New System.Drawing.Size(100, 20)
+        Me.txtRisk.TabIndex = 10
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(595, 47)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(217, 16)
+        Me.Label1.TabIndex = 11
+        Me.Label1.Text = "The risk of getting the disease"
+        '
         'frmDiseaseCombat
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(730, 321)
+        Me.ClientSize = New System.Drawing.Size(860, 321)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.txtRisk)
         Me.Controls.Add(Me.btnRead)
         Me.Controls.Add(Me.btnWrite)
         Me.Controls.Add(Me.btnActivity)
@@ -114,4 +136,6 @@ Partial Class frmDiseaseCombat
     Friend WithEvents btnActivity As Button
     Friend WithEvents btnWrite As Button
     Friend WithEvents btnRead As Button
+    Friend WithEvents txtRisk As TextBox
+    Friend WithEvents Label1 As Label
 End Class
