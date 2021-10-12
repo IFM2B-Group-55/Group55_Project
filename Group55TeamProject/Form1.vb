@@ -38,7 +38,9 @@ Public Class frmDiseaseCombat
         Select Case Disease_Type
             Case 1 'Hiv/Aids
                 Dim objHiv_Aids As Hiv_and_Aids = New Hiv_and_Aids(Symptom, Cause, Risk, Species) ' intiate
+
                 objHiv_Aids.Hiv_Aids_Info()
+                txtDisplay.Clear()
 
                 'Upcasting
                 ObjDisease(numDisease) = objHiv_Aids
@@ -46,12 +48,14 @@ Public Class frmDiseaseCombat
             Case 2 'Malaria
                 Dim objMalaria As Malaria = New Malaria(Symptom, Cause, Risk, Var, Stages) ' initiate
                 objMalaria.Malaria_Info()
+                txtDisplay.Clear()
 
                 'upcasting
                 ObjDisease(numDisease) = objMalaria
             Case 3 'TB
                 Dim objTB As TB = New TB(Symptom, Cause,Risk, Stages) ' initiate
                 objTB.TB_Info()
+                txtDisplay.Clear()
 
                 'upcasting
                 ObjDisease(numDisease) = objTB
@@ -93,13 +97,13 @@ Public Class frmDiseaseCombat
     Private Sub btnProfile_Click(sender As Object, e As EventArgs) Handles btnProfile.Click
         Dim name As String
         Dim age As Integer
-        Dim id As Integer
+        Dim id As Double
         numUsers += 1
         ReDim Preserve Users(numUsers)
 
         name = InputBox("Enter Name")
         age = CInt(InputBox("Enter Age"))
-        id = CInt(InputBox("Enter Id"))
+        id = CDbl(InputBox("Enter Id"))
 
         Users(numUsers) = New User(name, age, id, numUsers)
         MsgBox("your user Number is " & CStr(numUsers))

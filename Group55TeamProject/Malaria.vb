@@ -79,7 +79,7 @@ Option Infer Off
 11-Rapid heart rate
 12-Cough", "How many symptomds have you experienced?"))
 
-            CalcRisk()
+            MsgBox(CalcRisk())
         End If
         Return MoreInfo()
     End Function

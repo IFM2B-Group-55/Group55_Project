@@ -14,7 +14,7 @@ Option Infer Off
 <Serializable()> Public Class User
     Private _name As String
     Private _age As Integer
-    Private _id As Integer
+    Private _id As Double
     Private Shared _numUser As Integer
 
     Public Property Name() As String
@@ -35,11 +35,11 @@ Option Infer Off
         End Set
     End Property
 
-    Public Property Id() As Integer
+    Public Property Id() As Double
         Get
             Return _id
         End Get
-        Set(value As Integer)
+        Set(value As Double)
             _id = value
         End Set
     End Property
@@ -61,7 +61,7 @@ Option Infer Off
         Return disp
     End Function
 
-    Public Sub New(name As String, age As Integer, id As Integer, numuser As Integer)
+    Public Sub New(name As String, age As Integer, id As Double, numuser As Integer)
         _name = name
         _age = age
         _id = id
