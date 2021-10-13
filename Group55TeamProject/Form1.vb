@@ -95,6 +95,7 @@ Public Class frmDiseaseCombat
 
         For d As Integer = 1 To numDisease
             'polymorphism
+            txtDisplay.Clear()
             txtDisplay.Text &= ObjDisease(d).MoreInfo() & Environment.NewLine
         Next d
     End Sub
