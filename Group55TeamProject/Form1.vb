@@ -53,9 +53,9 @@ Public Class frmDiseaseCombat
         Dim Symptom As Integer
         Dim Cause As Integer
         Dim Risk As Double
-        Dim Species As String
+        Dim Species As String = " "
         Dim Stages As Integer
-        Dim Var As String
+        Dim Var As String = " "
         Disease_Type = CInt(InputBox(" : 1 - Hiv/Aids , 2 - Malaria, 3 - TB"))
 
         Select Case Disease_Type
@@ -119,7 +119,7 @@ Public Class frmDiseaseCombat
         While File.Position < File.Length
             Dim d As Disease
             d = DirectCast(BF.Deserialize(File), Disease)
-            txtDisplay.Text &= d.MoreInfo() & Environment.NewLine
+            txtDisplay.Text &= d.MoreInfo() & Environment.NewLine & Environment.NewLine
         End While
         File.Close()
     End Sub
